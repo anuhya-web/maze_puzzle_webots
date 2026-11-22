@@ -1,0 +1,146 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/samples/contests/rockin/protos/RoCKInAX01.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.2084408070538484 0.8029773730262647 -0.5583724280107135 0.870330160498653
+  position -2.8884265216218328 1.4089016105989978 2.5275728847688903
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0.02 0.01 -0.01
+  floorSize 2 2
+}
+RoCKInAX01 {
+  translation 0.1825500000005065 0.1728103377265225 0.009960760000000004
+  rotation 3.4965098882620144e-08 0.9999999999999994 -4.484126762756115e-17 3.141592653589793
+  name "RoCKIn AX01(2)"
+  color 0.4 0.3 0.9
+}
+RoCKInAX01 {
+  translation 0.699915440240383 0.6197587121929722 0.009960760000000006
+  rotation -2.8433521237033665e-13 -1.4649471489075527e-13 1 0.00014576589778457177
+  name "RoCKIn AX01(6)"
+  color 0.4 0.3 0.9
+}
+RoCKInAX01 {
+  translation -0.32 -0.1 0.00996075999999999
+  rotation 0.06727782655426087 0.6092380960246675 -0.7901282404814883 2.173442624625757e-16
+  name "RoCKIn AX01(8)"
+  color 0.4 0.3 0.9
+}
+Wall {
+  translation 0.5 0.62 0
+  name "wall(5)"
+  size 0.01 0.75 0.1
+}
+Wall {
+  translation -0.5 0.25 0
+  name "wall(3)"
+  size 0.01 1 0.1
+}
+Wall {
+  translation 0.51 -0.62 0
+  name "wall(22)"
+  size 0.01 0.75 0.1
+}
+Wall {
+  translation -0.24 -0.74 0
+  name "wall(4)"
+  size 0.01 0.5 0.1
+}
+Wall {
+  translation -0.24 0.87 0
+  name "wall(26)"
+  size 0.01 0.25 0.1
+}
+Wall {
+  translation 0.01 -0.49 0
+  name "wall(15)"
+  size 0.01 0.5 0.1
+}
+RoCKInAX01 {
+  translation 0.32 -0.64 0.00996076
+  rotation 0.7865087874787495 0.09831359843484845 0.6097035046491849 6.610343420516444e-17
+  name "RoCKIn AX01(1)"
+  color 1 0 0.4
+}
+RoCKInAX01 {
+  translation 0.38 0.82 0.009960760000000008
+  rotation -0.5217827134513778 -0.20871308538053704 -0.8271527355538723 1.2455120336631534e-16
+  name "RoCKIn AX01(7)"
+  color 1 0 0.4
+}
+Wall {
+  translation 0.01 0.63 0
+  name "wall(2)"
+  size 0.01 0.75 0.1
+}
+Wall {
+  translation -0.38 -0.25 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(10)"
+  size 0.01 0.25 0.1
+}
+Wall {
+  translation 0.62 0.26 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(6)"
+  size 0.01 0.25 0.1
+}
+Wall {
+  translation -0.37 0.75 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(25)"
+  size 0.01 0.25 0.1
+}
+Wall {
+  translation -0.86 0.76 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(17)"
+  size 0.01 0.25 0.1
+}
+Wall {
+  translation 0.75 0.01 0
+  name "wall(1)"
+  size 0.01 0.5 0.1
+}
+Wall {
+  translation -0.75 -0.5 0
+  size 0.01 1.01 0.1
+}
+E-puck {
+  hidden translation_1 0 0.0260000000000001 0.02
+  hidden rotation_1 0 1 0 4.36710237817584
+  hidden translation_2 0 -0.025999999999999964 0.02
+  hidden rotation_2 0 0.9999999999999999 0 0.8299449265429191
+  translation -0.126117 0.31037 -0.0086509
+  rotation -0.0013784054510443938 -0.0002613121227831902 -0.9999990158567094 2.58110831924554
+  controller "maze_puzzle_controller"
+}
+RoCKInAX01 {
+  translation -0.32305662719871897 0.4207705620372527 0.009960759999999997
+  rotation 8.82577266589672e-15 -3.8135225258025866e-14 -1 0.0036358953706389727
+}
+RoCKInAX01 {
+  translation -0.61 0.59 0.00996076000000001
+  rotation 0.8607476274150977 -0.43037381370754235 -0.27183065017415814 6.040206238037378e-17
+  name "RoCKIn AX01(5)"
+}
+RoCKInAX01 {
+  translation 0.797814 -0.641195 0.00993127
+  rotation 0.0002454605506458001 -0.0035189529724286464 0.9999937783401934 0.13942174881554775
+  name "RoCKIn AX01(3)"
+}
+Shape {
+}
